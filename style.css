@@ -1,0 +1,203 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p{
+    font-size: 1.2rem;
+}
+
+nav{
+    background-color: #444;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a{
+    color: #fff;
+    text-decoration:none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease,color 0.3s ease;
+}
+
+nav a:hover{
+    background-color: #5cb85c;
+    color: #fff;
+}
+section{
+    padding: 2rem 5%;
+    margin-bottom:20px ;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 8px 15px rgba(0, 0,2,7);
+}
+section h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+.education-item {
+    margin-bottom: 1.5rem;
+    padding-left: 20px;
+    border-left: 3px solid #5cb85c; 
+}
+
+.education-item h3 {
+    color: #5cb85c;
+    margin-bottom: 0.3rem;
+}
+
+.education-item p {
+    margin: 0.2rem 0;
+}
+.skills-list {
+    list-style-type: none; 
+    padding: 0;
+    text-align: center;
+}
+
+.skills-list li {
+    display: inline-block; 
+    background-color: #5cb85c; /* Green background for skill tags */
+    color: #fff;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px; /* Pill-shaped tags */
+    font-size: 0.9rem;
+}
+
+
+.skill-category {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.skill-category h3 {
+    color: #444;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.skill-category ul {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.skill-category ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Section Styling */
+#contact p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#contact a {
+    color: #5cb85c; /* Green color for links */
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+/* Button Styling */
+.cta-button { /* Call To Action button */
+    display: block; /* Makes the button take up its own line */
+    width: 200px;
+    margin: 20px auto; /* Centers the button */
+    padding: 12px 20px;
+    background-color: #5cb85c; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer; /* Changes cursor to a pointer on hover */
+    text-align: center;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+}
+
+.cta-button:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 1.5rem 0;
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.social-icons {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+.social-icons a {
+    color: #333; /* Default icon color (dark grey) */
+    font-size: 12px; /* Size of the icons (adjust as needed) */
+    margin: 0 8px; /* Space between icons */
+    text-decoration: none; /* Remove underline from the link */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for hover */
+    display: inline-block; /* Allows transform to work properly */
+}
+
+/* Social Icon Hover Effects */
+.social-icons a:hover {
+    color: #5cb85c; /* Change color on hover (your theme's accent green) */
+    transform: scale(1.3); /* Slightly enlarge icon on hover */
+}
+
+/* Specific hover colors if you want them (optional) */
+.social-icons a:hover .fa-linkedin {
+    color: #0077b5; /* LinkedIn blue */
+}
+
+.social-icons a:hover .fa-instagram {
+    color: #e4405f; /* Instagram pink/purple */
+}
+
+.social-icons a:hover .fa-envelope {
+    color: #dd4b39; /* A common email/Google red */
+}
+
+
+/* Adjust Contact Section Text if needed */
+#contact p {
+    text-align: center;
+    margin: 10px 0;
+}
+
+/* Ensure the button is still nicely spaced */
+#contact .cta-button {
+    margin-top: 20px; /* Add some space above the button if icons are directly above */
+    padding: 15px;
+}
+
